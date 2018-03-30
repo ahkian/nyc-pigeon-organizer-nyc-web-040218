@@ -18,5 +18,11 @@ def nyc_pigeon_organizer(data)
       value_hash[category] = []
     end
   end
-  binding.pry
+  data.each do |category, sub_category|
+    sub_category.each  do |array_name, names|
+      pigeon_list.each do |el1, el2|
+        binding.pry
+      end
+    end
+  end
 end
