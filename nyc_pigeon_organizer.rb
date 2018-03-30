@@ -10,5 +10,8 @@ def nyc_pigeon_organizer(data)
     end 
   end
   pigeon_names = pigeon_names.uniq 
-  
+  pigeon_names.each do |name|
+    pigeon_list[name] = {}
+  end
+  binding.pry
 end
