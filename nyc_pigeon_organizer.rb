@@ -23,6 +23,7 @@ def nyc_pigeon_organizer(data)
       binding.pry
       pigeon_list.each do |pigeon_name, categories|
         categories.each do |type, list|
+          binding.pry
           if type == array_name
             binding.pry
           end
