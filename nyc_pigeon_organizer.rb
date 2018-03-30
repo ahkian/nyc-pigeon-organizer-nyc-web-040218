@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
     sub_category.each  do |array_name, names|
       pigeon_list.each do |pigeon_name, categories|
         categories.each do |type, list|
-          if type == sub_category
+          if type == category
             binding.pry
           end
         end
