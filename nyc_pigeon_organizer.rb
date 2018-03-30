@@ -20,8 +20,10 @@ def nyc_pigeon_organizer(data)
   end
   data.each do |category, sub_category|
     sub_category.each  do |array_name, names|
-      pigeon_list.each do |el1, el2|
-        binding.pry
+      pigeon_list.each do |pigeon_name, categories|
+        categories.each do |type, list|
+          binding.pry
+        end
       end
     end
   end
